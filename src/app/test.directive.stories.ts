@@ -3,7 +3,7 @@ import { TestDirective } from './test.directive';
 
 export default {
   title: 'TestDirective',
-  component: TestDirective,
+  component: TestDirective, // <-- there is not support for directives?
   decorators: [
     moduleMetadata({
       imports: [TestDirective],
